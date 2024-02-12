@@ -13,3 +13,5 @@ GoとRustのWebフレームワーク比較
 - /users
   - GET: 全取得
   - POST: name渡して登録
+
+DBにはfirstname, lastnameで入れるけど、ドメインオブジェクトとしてはname（半角スペース区切り）で扱うようにしてみる。

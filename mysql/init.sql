@@ -12,6 +12,7 @@ USE test;
 -- userテーブルを作成する
 CREATE TABLE IF NOT EXISTS user (
     id VARCHAR(64) PRIMARY KEY,
-    name VARCHAR(100),
+    firstname VARCHAR(100),
+    lastname VARCHAR(100),
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
