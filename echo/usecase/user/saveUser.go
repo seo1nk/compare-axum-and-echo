@@ -11,3 +11,8 @@ func NewSaveUserUseCase(
 		userRepo: userRepo,
 	}
 }
+
+type SaveUserDto struct {
+	firstname string
+	lastname  string
+}
